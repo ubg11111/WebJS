@@ -1,0 +1,18 @@
+#login-form{
+  margin-bottom: 10px;
+}
+
+#links{
+  text-decoration: none;
+  margin-left: 10px;
+  color: red;
+  font-weight: 600;
+}
+
+#login-form input{
+  padding: 2px 3px;
+}
+
+.hidden{
+  display:none; 
+}
