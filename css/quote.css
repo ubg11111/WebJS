@@ -1,0 +1,22 @@
+#quote{
+  position: absolute;
+  left: 50%;
+  top:95%;
+  transform: translate(-50%, -70%);
+}
+
+#quote span:first-child{
+  font-size: 22px;
+  font-weight: 700;
+  color: white;
+}
+
+#quote span:last-child{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 17px;  
+  padding-top: 20px;
+  font-weight: 600;
+  color: white;
+}

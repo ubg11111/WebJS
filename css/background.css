@@ -1,0 +1,9 @@
+img{
+  position: absolute;
+  z-index: -99;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  top: 0;
+  opacity: 0.76;
+}

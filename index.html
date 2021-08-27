@@ -1,38 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Momentum</title>
-  <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-  <script src="js/greetings.js" defer></script>
-  <script src="js/clock.js" defer></script>
-  <script src="js/quotes.js" defer></script>
-  <script src="js/background.js" defer></script>
-  <script src="js/todo.js" defer></script>
-  
-  <h2 id="clock">00:00</h2>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Momentum</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <script src="https://kit.fontawesome.com/27a0dd965d.js" crossorigin="anonymous"></script>
+    <script src="js/greetings.js" defer></script>
+    <script src="js/clock.js" defer></script>
+    <script src="js/quotes.js" defer></script>
+    <script src="js/background.js" defer></script>
+    <script src="js/todo.js" defer></script>
+    <script src="js/music.js" defer></script>
+    <!-- <script src="js/weather.js" defer></script> -->
 
-  <form id="login-form" class="hidden">
-    <input required maxlength="15" type="text" placeholder="당신의 이름은 무엇입니까?">
-    <button>로그인</button>
-  </form>
-  <h1 id="greeting" class="hidden"></h1>
-  
-  <form id="todo-form">
-    <input type="text" placeholder="할 목록을 적어주세요" required>
-  </form>
+    <h2 id="clock">00:00</h2>
 
-  <ul id="todo-list">
-  </ul>
+    <form id="login-form" class="hidden">
+      <input class="login-form__input"
+        required
+        maxlength="20"
+        type="text"
+        placeholder="이름 정보를 입력해주세요."/>
+      
+      <button class="login-form__button">
+        <i class="fas fa-search"></i>
+      </button>
+    </form>
 
-  <div id="quote">
-    <span></span>
-    <span></span>
-  </div>
+    
+    <h1 id="greeting" class="hidden"></h1>
 
-</body>
+    <form id="todo-form">
+      <input class="todo-form__padding" type="text" placeholder="여행준비물 적어두기" required />
+    </form>
+
+    <div class="todo-box">
+      <header class="todo-box__list">LIST</header>
+      <ul id="todo-list"></ul>
+    </div>
+
+    <div id="quote">
+      <span></span>
+      <span></span>
+    </div>
+
+    <div id="weather">
+      <span></span>
+      <span></span>
+    </div>
+  </body>
 </html>
+

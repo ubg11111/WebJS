@@ -1,5 +1,5 @@
 const images = [
-  "cafe.jpg", "bridge.jpg", "newyork.jpg",
+  "hawaii.jpg","hawaii2.jpg","hawaii3.jpg"
 ];
 
 const chosenImage = images[Math.floor(Math.random() * images.length)];

@@ -1,0 +1,36 @@
+#login-form{
+  position: absolute;
+  left: 51%;
+  top: 46%;
+  transform: translate(-50%, -50%);
+}
+
+#greeting{
+  position: absolute;
+  left: 50%;
+  top: 47%;
+  transform: translate(-50%, -50%);
+  color: rgb(0,0,0, 0.7);
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.login-form__input{
+  margin-right: 5px;
+  padding: 5px 8px;
+  border-radius: 5px;
+  border: 0.5px solid wheat;
+}
+
+.login-form__button{
+  padding: 6px 10px;
+  background-color: white;
+  border-radius: 5px;
+  color: black;
+  border: none;
+}
+
+.login-form__button:hover{
+  cursor: pointer;
+}
+
